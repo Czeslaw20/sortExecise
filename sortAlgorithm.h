@@ -4,5 +4,5 @@
 class SortAlgorithm
 {
 public:
-    void bubbleSort_1(SqList li);
+    void bubbleSort_1(SqList &li);
 };

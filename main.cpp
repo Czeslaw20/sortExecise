@@ -18,5 +18,6 @@ int main()
 {
     test01();
 
+    system("pause");
     return EXIT_SUCCESS;
 }

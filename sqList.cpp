@@ -12,9 +12,13 @@ void SqList::swap(int i, int j)
 //打印
 void SqList::printR()
 {
-    for (int i : this->v)
+    for (vector<int>::iterator it = v.begin(); it != v.end(); ++it)
     {
-        cout << this->v[i] << " ";
+        cout << *it << " ";
     }
+    // for (int i : this->v)
+    // {
+    //     cout << this->v[i] << " ";
+    // }
     cout << endl;
 }

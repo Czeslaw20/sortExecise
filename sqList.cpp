@@ -12,13 +12,14 @@ void SqList::swap(int i, int j)
 //打印
 void SqList::printR()
 {
-    for (vector<int>::iterator it = v.begin(); it != v.end(); ++it)
-    {
-        cout << *it << " ";
-    }
-    // for (int i : this->v)
+    // for (vector<int>::iterator it = v.begin(); it != v.end(); ++it)
     // {
-    //     cout << this->v[i] << " ";
+    //     cout << *it << " ";
     // }
+    for (auto i : this->v)
+    {
+        cout << i << " ";
+        //使用范围for循环时，i本身就是v中的元素
+    }
     cout << endl;
 }

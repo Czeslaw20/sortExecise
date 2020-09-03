@@ -12,7 +12,19 @@ void test01()
     SortAlgorithm sort;
 
     //第1种：最简单的冒泡排序
-    sort.bubbleSort_1(li);
+    // sort.bubbleSort_1(li);
+
+    //第2种：正宗冒泡排序
+    // sort.bubbleSort_2(li);
+
+    //第3种：优化冒泡排序
+    // sort.bubbleSort_3(li);
+
+    //第4种：简单选择排序
+    // sort.simpleSelectionSort(li);
+
+    //第5种：直接插入排序
+    sort.straightInsertSort(li);
 
     li.printR();
 }

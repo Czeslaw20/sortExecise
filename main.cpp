@@ -6,7 +6,8 @@ using namespace std;
 void test01()
 {
     SqList li;
-    li.v = {5, 7, 9, 3, 8, 0, 4, 1, 6, 2};
+    //生成随机数组
+    li.genRandomList();
     li.printR();
 
     SortAlgorithm sort;
@@ -24,7 +25,25 @@ void test01()
     // sort.simpleSelectionSort(li);
 
     //第5种：直接插入排序
-    sort.straightInsertSort(li);
+    // sort.straightInsertSort(li);
+
+    //第6种：希尔排序
+    // sort.shellSort(li);
+
+    //第7种：堆排序
+    // sort.heapSort(li);
+
+    //第8种：归并排序
+    // sort.mergeSort(li);
+
+    //第9种：快速排序
+    // sort.quickSort(li);
+
+    //第10种：基数排序
+    // sort.radixSort(li);
+
+    //第11种：桶排序
+    sort.bucketSort(li);
 
     li.printR();
 }

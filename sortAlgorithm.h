@@ -20,10 +20,20 @@ public:
     void straightInsertSort(SqList &li);
 
     //第6种：希尔排序
+    void shellSort(SqList &li);
 
     //第7种：堆排序
+    void heapSort(SqList &li);
 
     //第8种：归并排序
+    void mergeSort(SqList &li);
 
     //第9种：快速排序
+    void quickSort(SqList &li);
+
+    //第10种：基数排序
+    void radixSort(SqList &li);
+
+    //第11种：桶排序
+    void bucketSort(SqList &li);
 };
